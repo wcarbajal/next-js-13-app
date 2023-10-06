@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
+    "standard": "^17.1.0",
     "standart": "^6.1.0"
   }
 }
