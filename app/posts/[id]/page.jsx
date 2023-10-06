@@ -1,8 +1,10 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useState } from 'react'
 
-export default function page({ params }) {
-  const {id} = params
+export default function PostPage({ params }) {
+
+    const {id} = params
   return (
-    <div>Esto es un post {id}</div>
+    <h1>Esto es un post {id}</h1>
   )
 }

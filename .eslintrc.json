@@ -1,5 +1,5 @@
 {
-  "extends": ["./node_modules/standart/eslintrc.json", "next/core-web-vitals"]
+  "extends": [ "next/core-web-vitals"]
 
 /*"./node_modules/standart/eslintrc.json"*/
 

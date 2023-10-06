@@ -1,9 +1,19 @@
-import React from 'react'
 
-export default function PostsPage() {
+import React from 'react'
+import { ListOfPosts } from './[id]/ListOfPosts'
+
+
+
+export default async function PostsPage({params}) {
   
-  
+    
+
+
+
   return (
-    <div>Aquí mostramos los Posts</div>
+    <secion>
+        <ListOfPosts />
+        
+    </secion>
   )
 }

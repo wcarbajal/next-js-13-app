@@ -1,13 +1,18 @@
 .header{
-  border: 1px solid #f0f0f0;
+  border: 1px solid white;
   border-radius: 4px;
   padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 
 }
 .navigation {
   display: flex;
   list-style: none;
   gap: 5px; 
+  color: white;
 }
 .navigation a:hover{
   
