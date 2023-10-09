@@ -999,7 +999,7 @@ packages:
       eslint-plugin-react: '>=2.7.1'
     dependencies:
       eslint: 3.11.1
-      eslint-plugin-react: 6.7.1(eslint@3.11.1)
+      eslint-plugin-react: 6.7.1(eslint@8.50.0)
     dev: true
 
   /eslint-config-standard@17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.50.0):
@@ -1213,14 +1213,14 @@ packages:
       eslint: 8.50.0
     dev: true
 
-  /eslint-plugin-react@6.7.1(eslint@3.11.1):
+  /eslint-plugin-react@6.7.1(eslint@8.50.0):
     resolution: {integrity: sha512-XePiF5td1CLgvnIrE+O/xH4fjuqYu1SgSRxyX/Q8KhDQslOiUGaB8++q+i+5ytiLJpxgt+VApXZ11BnkGMtNqA==}
     engines: {node: '>=0.10'}
     peerDependencies:
       eslint: ^2.0.0 || ^3.0.0
     dependencies:
       doctrine: 1.5.0
-      eslint: 3.11.1
+      eslint: 8.50.0
       jsx-ast-utils: 1.4.1
     dev: true
 
@@ -2895,7 +2895,7 @@ packages:
       eslint-config-standard-jsx: 3.2.0(eslint-plugin-react@6.7.1)(eslint@3.11.1)
       eslint-config-standart: 0.2.0(eslint-plugin-promise@3.4.2)(eslint-plugin-standard@2.0.1)(eslint@3.11.1)
       eslint-plugin-promise: 3.4.2
-      eslint-plugin-react: 6.7.1(eslint@3.11.1)
+      eslint-plugin-react: 6.7.1(eslint@8.50.0)
       eslint-plugin-standard: 2.0.1(eslint@8.50.0)
       standard-engine: 5.3.0
     transitivePeerDependencies:

@@ -1,19 +1,15 @@
 
-import React from 'react'
+import React, { Suspense } from 'react'
 import { ListOfPosts } from './[id]/ListOfPosts'
 
 
-
-export default async function PostsPage({params}) {
+export default async function PostPage({params}) {
   
-    
-
-
-
   return (
-    <secion>
+    <secion >
+      <Suspense fallback={<p>Cargando posts ...</p>}>
         <ListOfPosts />
-        
+        </Suspense>
     </secion>
   )
 }

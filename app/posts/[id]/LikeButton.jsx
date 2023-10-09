@@ -7,7 +7,7 @@ export const LikeButton = () => {
 const [liked, setLiked] = useState(false)
 
 return (
-    <button onClick={() => setLiked(!liked)}>{liked ? <FaHeart /> : <FaRegHeart />}</button>
+    <button onClick={() => setLiked(!liked)}>{liked ? <FaHeart style={{color:'red'}}/> : <FaRegHeart  />}</button>
 )
 
 }
